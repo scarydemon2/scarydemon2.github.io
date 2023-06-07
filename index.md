@@ -124,13 +124,11 @@ end
 ## Publications
 ### Conference Papers
 
-![Link](figure/LEGO-ABSA.jpg)
-Tianhao Gao, Jun Fang, Hanyu Liu, et al. (2022.) “LEGO-ABSA: A Prompt-based Task Assemblable Unified Generative Framework for
-Multi-task Aspect-based Sentiment Analysis.” In Proceedings of the 29th International Conference on Computational Linguistics, pages
-7002–7012, [Link](https://aclanthology.org/2022.coling-1.610.pdf)[Slide]
+![Link](figure/LEGO-ABSA.jpg){width="40%"}
+- Tianhao Gao, Jun Fang, Hanyu Liu, et al. (2022.) “LEGO-ABSA: A Prompt-based Task Assemblable Unified Generative Framework for Multi-task Aspect-based Sentiment Analysis.” In Proceedings of the 29th International Conference on Computational Linguistics, pages 7002–7012, [Link](https://aclanthology.org/2022.coling-1.610.pdf)[Slide]
 ### Prerints
 
-Haochen Li, Tianhao Gao* ,Weiping Li, et al. (2020) “Joint Event Extraction via Structural Semantic Matching,” preprint [Link](https://arxiv.org/abs/2306.03469)
+- Haochen Li, Tianhao Gao* ,Weiping Li, et al. (2020) “Joint Event Extraction via Structural Semantic Matching,” preprint [Link](https://arxiv.org/abs/2306.03469)
 
 
 ## Projects
