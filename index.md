@@ -122,15 +122,16 @@ end
 - B.S. in Software  Engineering, Wuhan University of Technology, 2015-2019
 
 ## Publications
-
-[2] Haochen Li, Tianhao Gao* ,Weiping Li, et al. (2020) “Joint Event Extraction via Structural Semantic Matching,” preprint [Link](https://arxiv.org/abs/2306.03469)
-
 ### Conference Papers
 
 ![Link](figure/LEGO-ABSA.jpg)
 Tianhao Gao, Jun Fang, Hanyu Liu, et al. (2022.) “LEGO-ABSA: A Prompt-based Task Assemblable Unified Generative Framework for
 Multi-task Aspect-based Sentiment Analysis.” In Proceedings of the 29th International Conference on Computational Linguistics, pages
 7002–7012, [Link](https://aclanthology.org/2022.coling-1.610.pdf)[Slide]
+### Prerints
+
+Haochen Li, Tianhao Gao* ,Weiping Li, et al. (2020) “Joint Event Extraction via Structural Semantic Matching,” preprint [Link](https://arxiv.org/abs/2306.03469)
+
 
 ## Projects
 
@@ -155,10 +156,4 @@ CV2 library to calculate
 
 ## Contact Information
 
-- Email: john.doe@email.com
-- Website: www.johndoe.com
-- Twitter: @johndoe
-- LinkedIn: www.linkedin.com/in/johndoe
-
-![Alt Text](/path/to/image.jpg)
-<iframe src="/path/to/slideshow.html" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+- Email: gaotianhao@pku.edu.cn
