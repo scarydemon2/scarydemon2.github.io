@@ -117,38 +117,41 @@ end
  -->
 ## Education
 
-- Ph.D. in Computer Science, University of California, Los Angeles (UCLA), 2021
-- M.S. in Computer Science, Stanford University, 2015
-- B.S. in Computer Science, Massachusetts Institute of Technology (MIT), 2013
+- Ph.D. still seeking
+- M.S. in Computer Technoloy, Peking University, 2019-2022
+- B.S. in Software  Engineering, Wuhan University of Technology, 2015-2019
 
 ## Publications
 
-### Journal Articles
-
-1. Doe, J., Smith, J., & Johnson, K. (2022). A Novel Approach to Machine Learning. *Journal of Artificial Intelligence*, 25(1), 30-50. 
+[2] Haochen Li, Tianhao Gao* ,Weiping Li, et al. (2020) “Joint Event Extraction via Structural Semantic Matching,” preprint [Link](https://arxiv.org/abs/2306.03469)
 
 ### Conference Papers
 
-1. Doe, J., & Lee, S. (2021). Improving Image Classification with Convolutional Neural Networks. In *Proceedings of the 35th Conference on Neural Information Processing Systems (NeurIPS)* (pp. 100-110).
-
-### Book Chapters
-
-1. Doe, J., & Kim, Y. (2023). Deep Learning for Natural Language Processing. In N. Smith & K. Johnson (Eds.), *Handbook of Machine Learning and Natural Language Processing* (pp. 200-220). Springer.
+![Link](figure/LEGO-ABSA.jpg)
+Tianhao Gao, Jun Fang, Hanyu Liu, et al. (2022.) “LEGO-ABSA: A Prompt-based Task Assemblable Unified Generative Framework for
+Multi-task Aspect-based Sentiment Analysis.” In Proceedings of the 29th International Conference on Computational Linguistics, pages
+7002–7012, [Link](https://aclanthology.org/2022.coling-1.610.pdf)[Slide]
 
 ## Projects
 
-### Project 1: Image Classification using CNNs
+### Project 1: Multi-modal Tagging System
 
-- Developed a deep learning model for image classification using convolutional neural networks (CNNs).
-- Achieved state-of-the-art performance on the CIFAR-10 dataset.
-- Used PyTorch and trained the model on a GPU cluster.
+- Selected the optimal base model and architecture through a thorough comparison and evaluation of different alternatives.
+- Constructed high-quality training data using PySpark and Hive SQL techniques.
+- Trained a multi-modal tagging model and devoloped a recursive algorithm to determine the appropriate threshold, achieving an impressive 90% accuracy
 
-### Project 2: Sentiment Analysis of Twitter Data
+### Project 2: Vertical domain Large-scale Language Model 
 
-- Analyzed a dataset of tweets to predict the sentiment of each tweet (positive, negative, or neutral).
-- Used natural language processing techniques and machine learning algorithms to build the model.
-- Achieved an accuracy of 85% on a test set.
-- Developed a web application to visualize the results.
+- Conducted extensive research on open-source training methodologies, including parameter efficient training (PEFT), full fine-tuning
+(FT), and RLHF training.
+- Collected a diverse range of open-source training datasets and explored data creation techniques.
+- Investigated various base models and compared their features.
+- Trained domain-specific LLMs using diffe
+
+### project 3: Counterfeit Brand Titles Detection System
+- Performed a comprehensive problem analysis and proposed a modular system architecture to decouple and solve various challenges.
+- Employed traditional algorithms, including edit distance, minimum window substring, and recursive algorithm combined with the
+CV2 library to calculate 
 
 ## Contact Information
 
@@ -156,3 +159,6 @@ end
 - Website: www.johndoe.com
 - Twitter: @johndoe
 - LinkedIn: www.linkedin.com/in/johndoe
+
+![Alt Text](/path/to/image.jpg)
+<iframe src="/path/to/slideshow.html" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
