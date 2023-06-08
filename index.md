@@ -129,8 +129,7 @@ end
 [Introduce Page](./LEGO-ABSA.md).
 
 ### Prerints
-<!-- ![Link](figure/STE.jpg) -->
-<img src="figure/STE.jpg" alt="STE" style="width:400px;height:400px;">
+![Link](figure/STE.jpg)
 
 - Haochen Li, Tianhao Gao* ,Weiping Li, et al. (2020) “Joint Event Extraction via Structural Semantic Matching,” preprint [Link](https://arxiv.org/abs/2306.03469)
 
@@ -145,7 +144,6 @@ end
 ## Projects
 
 ### Project 1: Multi-modal Tagging System
-![[Octocat]](figure/multimodal-loss.jpg)
 <img src="figure/multimodal-loss.jpg" alt="multimodal-loss" style="width:700px;height:700px;">
 
 - Selected the optimal base model and architecture through a thorough comparison and evaluation of different alternatives.
