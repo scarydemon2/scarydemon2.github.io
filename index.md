@@ -125,7 +125,7 @@ end
 ### Conference Papers
 
 <!-- ![Link](figure/LEGO-ABSA.jpg){width="300" height="200"}  -->
-<img src="figure/LEGO-ABSA.jpg" alt="LEGO-ABSA" style="width:200px;height:150px;">
+<img src="figure/LEGO-ABSA.jpg" alt="LEGO-ABSA" style="width:240px;height:180px;">
 
 - Tianhao Gao, Jun Fang, Hanyu Liu, et al. (2022.) “LEGO-ABSA: A Prompt-based Task Assemblable Unified Generative Framework for Multi-task Aspect-based Sentiment Analysis.” In Proceedings of the 29th International Conference on Computational Linguistics, pages 7002–7012, [Link](https://aclanthology.org/2022.coling-1.610.pdf)[Slide](https://docs.google.com/presentation/d/1P9n2fXcbiXS980pE7TAIdcb5upj82d1t/edit?usp=sharing&ouid=111174972996846420319&rtpof=true&sd=true)
 ### Prerints
