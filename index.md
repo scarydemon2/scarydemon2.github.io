@@ -126,20 +126,26 @@ end
 ![Link](figure/LEGO-ABSA.jpg)
 <!-- <img src="figure/LEGO-ABSA.jpg" alt="LEGO-ABSA" style="width:400px;height:220px;"> -->
 - Tianhao Gao, Jun Fang, Hanyu Liu, et al. (2022.) “LEGO-ABSA: A Prompt-based Task Assemblable Unified Generative Framework for Multi-task Aspect-based Sentiment Analysis.” In Proceedings of the 29th International Conference on Computational Linguistics, pages 7002–7012, [Link](https://aclanthology.org/2022.coling-1.610.pdf) ｜ [Slide](https://docs.google.com/presentation/d/1P9n2fXcbiXS980pE7TAIdcb5upj82d1t/edit?usp=sharing&ouid=111174972996846420319&rtpof=true&sd=true)
-[Introduce Page](./LEGO-ABSA.md).
+  
+[Introduce Page of LEGO-ABSA](pages/LEGO-ABSA.md).
 
 ### Prerints
 ![Link](figure/STE.jpg)
 
 - Haochen Li, Tianhao Gao* ,Weiping Li, et al. (2020) “Joint Event Extraction via Structural Semantic Matching,” preprint [Link](https://arxiv.org/abs/2306.03469)
 
+[Introduce Page of JSSM](pages/STE.md).
+
 ## Patents
 
 - Tianhao Gao, et al. "Aspect-based sentiment analysis method based on text style transfer” Submitted
-	
-- Tianhao Gao, et al. "A Zero-Shot Aspect-based Sentiment Analysis Method" Submitted
+
+[Introduce Page](pages/patent1.md).
+
 
 - Tianhao Gao, et al. "An Iterative Training Framework and Hierarchical Contrastive Loss for Graph-Text Matching" Submitted
+
+[Introduce Page](pages/patent2.md).
 
 ## Projects
 
