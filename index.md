@@ -146,7 +146,7 @@ end
 
 ### Project 1: Multi-modal Tagging System
 ![[Octocat]](figure/multimodal-loss.jpg)
-<img src="figure/STE.jpg" alt="STE" style="width:400px;height:400px;">
+<img src="figure/multimodal-loss.jpg" alt="multimodal-loss" style="width:700px;height:700px;">
 
 - Selected the optimal base model and architecture through a thorough comparison and evaluation of different alternatives.
 - Constructed high-quality training data using PySpark and Hive SQL techniques.
