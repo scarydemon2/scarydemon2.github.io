@@ -124,10 +124,10 @@ end
 ## Publications
 ### Conference Papers
 
-![Link](figure/LEGO-ABSA.jpg)
 <!-- <img src="figure/LEGO-ABSA.jpg" alt="LEGO-ABSA" style="width:400px;height:220px;"> -->
-
 - Tianhao Gao, Jun Fang, Hanyu Liu, et al. (2022.) “LEGO-ABSA: A Prompt-based Task Assemblable Unified Generative Framework for Multi-task Aspect-based Sentiment Analysis.” In Proceedings of the 29th International Conference on Computational Linguistics, pages 7002–7012, [Link](https://aclanthology.org/2022.coling-1.610.pdf)[Slide](https://docs.google.com/presentation/d/1P9n2fXcbiXS980pE7TAIdcb5upj82d1t/edit?usp=sharing&ouid=111174972996846420319&rtpof=true&sd=true)
+[Link to LEGO-ABSA](./LEGO-ABSA.md).
+
 ### Prerints
 <!-- ![Link](figure/STE.jpg) -->
 <img src="figure/STE.jpg" alt="STE" style="width:400px;height:400px;">
@@ -141,15 +141,13 @@ end
 ![[Octocat]](figure/multimodal-loss.jpg)
 <img src="figure/STE.jpg" alt="STE" style="width:400px;height:400px;">
 
-
 - Selected the optimal base model and architecture through a thorough comparison and evaluation of different alternatives.
 - Constructed high-quality training data using PySpark and Hive SQL techniques.
 - Trained a multi-modal tagging model and devoloped a recursive algorithm to determine the appropriate threshold, achieving an impressive 90% accuracy
 
 ### Project 2: Vertical domain Large-scale Language Model 
 
-- Conducted extensive research on open-source training methodologies, including parameter efficient training (PEFT), full fine-tuning
-(FT), and RLHF training.
+- Conducted extensive research on open-source training methodologies, including parameter efficient training (PEFT), full fine-tuning(FT), and RLHF training.
 - Collected a diverse range of open-source training datasets and explored data creation techniques.
 - Investigated various base models and compared their features.
 - Trained domain-specific LLMs using diffe
