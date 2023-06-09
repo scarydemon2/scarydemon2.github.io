@@ -150,7 +150,7 @@ end
 ## Projects
 
 ### Project 1: Multi-modal Tagging System
-<img src="figure/multimodal-loss.jpg" alt="multimodal-loss" style="width:700px;height:700px;">
+<img src="../figure/multimodal-loss.jpg" alt="multimodal-loss" style="width:700px;height:700px;">
 
 - Selected the optimal base model and architecture through a thorough comparison and evaluation of different alternatives.
 - Constructed high-quality training data using PySpark and Hive SQL techniques.

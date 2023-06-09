@@ -4,7 +4,7 @@ title: An Iterative Training Framework and Hierarchical Contrastive Loss for Gra
 description: 
 ---
 
-![Link](figure/LEGO-ABSA-fig1.jpg)
+![Link](../figure/LEGO-ABSA-fig1.jpg)
 
 
 ## Motivation
