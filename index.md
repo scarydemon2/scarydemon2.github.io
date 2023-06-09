@@ -118,7 +118,7 @@ end
 ## Education
 
 - Ph.D. still seeking
-- M.S. in Computer Technoloy, Peking University, 2019-2022
+- M.S. in Computer Technology, Peking University, 2019-2022
 - B.S. in Software  Engineering, Wuhan University of Technology, 2015-2019
 
 ## Publications
