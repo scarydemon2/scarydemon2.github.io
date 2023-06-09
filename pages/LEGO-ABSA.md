@@ -4,7 +4,7 @@ title: LEGO-ABSA: A Prompt-based Task Assemblable Unified Generative Framework f
 description: introduce and application in work
 ---
 
-![Link](figure/LEGO-ABSA-fig1.jpg)
+![Link](../figure/LEGO-ABSA-fig1.jpg)
 
 # LEGO-ABSA
 
@@ -35,21 +35,21 @@ Recently, large-scale generative language models have become increasingly powerf
 
 In order to make the framework fully understand the meaning of each element in the output text, instead of treating the output as a simple string, we design an element prompt for each extracted element. We define the element prompt as follow :
 
-• $p_a$ : "aspect : <extra_id_w>"
-• $p_c$ : "category : <extra_id_x>"
-• $p_o$ : "opinion : <extra_id_y>"
-• $p_s$ : "sentiment : <extra_id_z>"
+- $p_a$ : "aspect : <extra_id_w>"
+- $p_c$ : "category : <extra_id_x>"
+- $p_o$ : "opinion : <extra_id_y>"
+- $p_s$ : "sentiment : <extra_id_z>"
 
 This method has two advantages. On the one hand, the format is consistent with the T5 unsupervised training object, which can help us make better use of the information learned from pre-training. On the other hand, by defining a prompt for a single element, the output is no longer regarded as a whole text string but as a combination of different elements that offer more convenience.
 
 Methods based on element-level prompts, task prompts, and task transfer prompts are shown in the figure below.
-![Link](figure/LEGO-ABSA-method.jpg)
+![Link](../figure/LEGO-ABSA-method.jpg)
 
 ## Performance
 
 The main results of LEGO-ABSA is shown below which achieved SoTA performance in almost all sub-tasks.
 
-![Link](figure/LEGO-ABSA-performance.jpg)
+![Link](../figure/LEGO-ABSA-performance.jpg)
 
 
 ## Application in work
