@@ -13,6 +13,7 @@ ABSA aims to extract different elements including: 1) the aspect term(a); 2) opi
 For example, in the sentence *“Pizza is delicious”*, *“Pizza”* is an aspect term belonging to the food category, and the corresponding opinion term is *“delicious”*, which expresses positive sentiment.
 
 Below are the task objectives for all subtasks.
+
 ![Link](../figure/ABSA-task-introduce.jpg)
 
 ## Abstract
