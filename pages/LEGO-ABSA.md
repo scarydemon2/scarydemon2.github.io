@@ -4,8 +4,6 @@ title: LEGO-ABSA: A Prompt-based Task Assemblable Unified Generative Framework f
 description: introduce and application in work
 ---
 
-![Link](../figure/LEGO-ABSA-fig1.jpg)
-
 # LEGO-ABSA
 
 ## ABSA introduce
