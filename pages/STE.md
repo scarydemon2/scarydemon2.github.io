@@ -25,7 +25,7 @@ Event Extraction (EE) is one of the essential tasks in information extraction, w
 
 - Secondly, to construct the knowledge graph structure of event and finish Event Detection subtask, we used an attention mechanism to aggregate information from sentence encoding--> arguments STE-->event STE. Finally, we used the event STE for binary classification.
 
-![Link](../figure/JSSM_DSE.jpg)
+![Link](../figure/JSSM-DSE.jpg)
 
 - Lastly, to complete the argument extraction process, we inverted the attention mechanism to aggregate information from event STE --> argument STE --> sentence encoding. Then, we created a classification head for each argument type to perform binary classification on individual tokens. Tokens with consecutive classifications of 1 were merged into a single argument.
   
