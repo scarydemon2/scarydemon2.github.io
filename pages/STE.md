@@ -21,14 +21,15 @@ Event Extraction (EE) is one of the essential tasks in information extraction, w
 2. A Event which contains its type and corrsponding argument type, so the definition of an event can naturally be viewed as a small knowledge base. However, no one has explored how to model this type of graph structure before (At least before this paper was just completed).
 ## Method
 
-- First, we use BERT to encode the names of event types such as "Attack," "Marry," and so on. Using this method, we encode the semantic information embedded in the labels. The same method is also used for encoding Argument names. These encodings were called "STE" in our paper.
+- Firstly, we use BERT to encode the names of event types such as "Attack," "Marry," and so on. Using this method, we encode the semantic information embedded in the labels. The same method is also used for encoding Argument names. These encodings were called "STE" in our paper.
 
-- Second, to construct the knowledge graph structure of event and finish Event Detection subtask, we used an attention mechanism to aggregate information from sentence encoding--> arguments STE-->event STE. Finally, we used the event STE for binary classification.
+- Secondly, to construct the knowledge graph structure of event and finish Event Detection subtask, we used an attention mechanism to aggregate information from sentence encoding--> arguments STE-->event STE. Finally, we used the event STE for binary classification.
 
-- Last, to finish Arguments extraction. We 
-- 
+- Lastly, to complete the argument extraction process, we inverted the attention mechanism to aggregate information from event STE --> argument STE --> sentence encoding. Then, we created a classification head for each argument type to perform binary classification on individual tokens. Tokens with consecutive classifications of 1 were merged into a single argument.
+  
 ## Performance
 
+![Link](../figure/JSSM_performance.jpg)
 
 
 
