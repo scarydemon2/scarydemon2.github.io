@@ -128,7 +128,7 @@ end
   
 [Introduce Page of LEGO-ABSA](pages/LEGO-ABSA.md).
 
-### Prerints
+### Preprint
 ![Link](figure/STE.jpg)
 
 - Haochen Li, Tianhao Gao* ,Weiping Li, et al. (2020) “Joint Event Extraction via Structural Semantic Matching,” preprint [Link](https://arxiv.org/abs/2306.03469)
@@ -144,7 +144,9 @@ end
 
 - Tianhao Gao, et al. "An Iterative Training Framework and Hierarchical Contrastive Loss for Graph-Text Matching" Submitted
 
-[Introduce Page](pages/patent2.md).
+<!-- [Introduce Page](pages/patent2.md). -->
+
+- https://www.patentguru.com/cn/search?q=CN115759292A 《模型的训练方法及装置、语义识别方法及装置、电子设备》
 
 ## Projects
 
@@ -162,10 +164,12 @@ end
 - Investigated various base models and compared their features.
 - Trained domain-specific LLMs using diffe
 
-### project 3: Counterfeit Brand Titles Detection System
+### Project 3: MLM continue pretraining on  decoder-only architecture
+
+
+### project 4: Counterfeit Brand Titles Detection System
 - Performed a comprehensive problem analysis and proposed a modular system architecture to decouple and solve various challenges.
-- Employed traditional algorithms, including edit distance, minimum window substring, and recursive algorithm combined with the
-CV2 library to calculate 
+- Employed traditional algorithms, including edit distance, minimum window substring, and recursive algorithm combined with the CV2 library to calculate 
 
 ## Contact Information
 
