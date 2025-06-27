@@ -115,6 +115,21 @@ end
 
 ![Branching](https://guides.github.com/activities/hello-world/branching.png)
  -->
+
+<div class="profile-container">
+  <div class="profile-left">
+    <img src="figure/STE.jpg" alt="Your Photo" class="profile-photo">
+  </div>
+  <div class="profile-right">
+    <h2>Tianhao Gao</h2>
+    <ul class="education-list">
+      <li><strong>M.S. in Computer Technology</strong>, Peking University, 2019-2022</li>
+      <li><strong>B.S. in Software Engineering</strong>, Wuhan University of Technology, 2015-2019</li>
+    </ul>
+    <p>Email: your-email</p>
+  </div>
+</div>
+
 ## Education
 
 - M.S. in Computer Technology, Peking University, 2019-2022
