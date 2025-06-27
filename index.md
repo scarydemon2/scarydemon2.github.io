@@ -1,147 +1,37 @@
 ---
 layout: default
 ---
-<!-- 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Tianhao Gao</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
-
-# Education
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-# Papers
-  ## Conference
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-  ## preprint
-# Experience
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
- -->
 
 <div class="profile-container">
   <div class="profile-left">
-    <img src="figure/STE.jpg" alt="Your Photo" class="profile-photo">
+    <img src="figure/handsome_face.png" alt="Your Photo" class="profile-photo">
   </div>
   <div class="profile-right">
     <h2>Tianhao Gao</h2>
-    <ul class="education-list">
+    <ul class="experience">
+      <li><strong>Algorithm Engineer</strong>, JD.com, 2022-now</li>
       <li><strong>M.S. in Computer Technology</strong>, Peking University, 2019-2022</li>
       <li><strong>B.S. in Software Engineering</strong>, Wuhan University of Technology, 2015-2019</li>
     </ul>
-    <p>Email: your-email</p>
+    <p>Email: gaotianhao@pku.edu.cn</p>
   </div>
 </div>
-
-## Education
-
-- M.S. in Computer Technology, Peking University, 2019-2022
-- B.S. in Software  Engineering, Wuhan University of Technology, 2015-2019
 
 ## Publications
 ### Conference Papers
 ![Link](figure/LEGO-ABSA.jpg)
-<!-- <img src="figure/LEGO-ABSA.jpg" alt="LEGO-ABSA" style="width:400px;height:220px;"> -->
 - Tianhao Gao, Jun Fang, Hanyu Liu, et al. (2022.) “LEGO-ABSA: A Prompt-based Task Assemblable Unified Generative Framework for Multi-task Aspect-based Sentiment Analysis.” In Proceedings of the 29th International Conference on Computational Linguistics, pages 7002–7012, [Link](https://aclanthology.org/2022.coling-1.610.pdf) ｜ [Slide](https://docs.google.com/presentation/d/1P9n2fXcbiXS980pE7TAIdcb5upj82d1t/edit?usp=sharing&ouid=111174972996846420319&rtpof=true&sd=true)
-  
 [Introduce Page of LEGO-ABSA](pages/LEGO-ABSA.md).
+
+
+![Link](figure/InstEmb.pdf)
+- Tianhao Gao, Jun Fang, et al. (2025.) “Soft Prompts, Strong Alignment: Aligning LLMs with Fine-Grained Instruction-Following Embeddings” In Proceedings of the 29th International Conference on Computational Linguistics, pages 7002–7012, [Link](https://aclanthology.org/2022.coling-1.610.pdf)
+[Introduce Page of InstEmb](pages/InstEmb.md).
+
+![Link](figure/FANoise-combine.pdf)
+- Jiaoyang Li, Jun Fang, Tianhao Gao, et al. (2025.) “FANoise: Feature-Adaptive Noise Driven Representation Learning.” In Proceedings of the 29th International Conference on Computational Linguistics, pages 7002–7012, [Link](https://aclanthology.org/2022.coling-1.610.pdf)
+[Introduce Page of FANoise](pages/LEGO-ABSA.md).
+
 
 ### Preprint
 ![Link](figure/STE.jpg)
@@ -152,9 +42,9 @@ end
 
 ## Patents
 
-- Tianhao Gao, et al. "Aspect-based sentiment analysis method based on text style transfer” Submitted
+<!-- - Tianhao Gao, et al. "Aspect-based sentiment analysis method based on text style transfer” Submitted
 
-[Introduce Page](pages/patent1.md).
+[Introduce Page](pages/patent1.md). -->
 
 
 - Tianhao Gao, et al. "An Iterative Training Framework and Hierarchical Contrastive Loss for Graph-Text Matching" Submitted
@@ -165,21 +55,17 @@ end
 
 ## Projects
 
-### Project 1: Multi-modal Tagging System
+### Project 1: 多模态商品内容标签打标系统
 <img src="figure/multimodal-loss.jpg" alt="multimodal-loss" style="width:700px;height:700px;">
 
 - Selected the optimal base model and architecture through a thorough comparison and evaluation of different alternatives.
 - Constructed high-quality training data using PySpark and Hive SQL techniques.
 - Trained a multi-modal tagging model and devoloped a recursive algorithm to determine the appropriate threshold, achieving an impressive 90% accuracy
 
-### Project 2: Vertical domain Large-scale Language Model 
+### Project 2: 京东前台类目识别模型
 
-- Conducted extensive research on open-source training methodologies, including parameter efficient training (PEFT), full fine-tuning(FT), and RLHF training.
-- Collected a diverse range of open-source training datasets and explored data creation techniques.
-- Investigated various base models and compared their features.
-- Trained domain-specific LLMs using diffe
 
-### Project 3: MLM continue pretraining on  decoder-only architecture
+### Project 3: 
 
 
 ### project 4: Counterfeit Brand Titles Detection System
