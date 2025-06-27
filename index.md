@@ -20,25 +20,24 @@ layout: default
 ## Publications
 ### Conference Papers
 <!-- ![Link](figure/LEGO-ABSA.jpg) -->
-<img src="figure/LEGO-ABSA.jpg" alt="LEGO-ABSA" width="300" height="200">
 - Tianhao Gao, Jun Fang, Hanyu Liu, et al. (2022.) “LEGO-ABSA: A Prompt-based Task Assemblable Unified Generative Framework for Multi-task Aspect-based Sentiment Analysis.” In Proceedings of the 29th International Conference on Computational Linguistics, pages 7002–7012, [Link](https://aclanthology.org/2022.coling-1.610.pdf) ｜ [Slide](https://docs.google.com/presentation/d/1P9n2fXcbiXS980pE7TAIdcb5upj82d1t/edit?usp=sharing&ouid=111174972996846420319&rtpof=true&sd=true)
+<img src="figure/LEGO-ABSA.jpg" alt="LEGO-ABSA" width="500">
 [Introduce Page of LEGO-ABSA](pages/LEGO-ABSA.md).
 
 
-<embed src="figure/InstEmb.pdf" type="application/pdf" width="800px" height="600px" />
-- Tianhao Gao, Jun Fang, et al. (2025.) “Soft Prompts, Strong Alignment: Aligning LLMs with Fine-Grained Instruction-Following Embeddings” In Proceedings of the 29th International Conference on Computational Linguistics, pages 7002–7012, [Link](https://aclanthology.org/2022.coling-1.610.pdf)
+- Tianhao Gao, Jun Fang, et al. (2025.) “Soft Prompts, Strong Alignment: Aligning LLMs with Fine-Grained Instruction-Following Embeddings” Nips在投, [Link](https://aclanthology.org/2022.coling-1.610.pdf)
+<img src="figure/InstEmb.png" alt="LEGO-ABSA" width="500">
 [Introduce Page of InstEmb](pages/InstEmb.md).
 
-<embed src="figure/FANoise-combine.pdf" type="application/pdf" width="800px" height="600px" />
-- Jiaoyang Li, Jun Fang, Tianhao Gao, et al. (2025.) “FANoise: Feature-Adaptive Noise Driven Representation Learning.” In Proceedings of the 29th International Conference on Computational Linguistics, pages 7002–7012, [Link](https://aclanthology.org/2022.coling-1.610.pdf)
+- Jiaoyang Li, Jun Fang, Tianhao Gao, et al. (2025.) “FANoise: Feature-Adaptive Noise Driven Representation Learning.” aaai在投, [Link](https://aclanthology.org/2022.coling-1.610.pdf)
+<img src="figure/InstEmb.png" alt="LEGO-ABSA" width="500">
 [Introduce Page of FANoise](pages/LEGO-ABSA.md).
 
 
 ### Preprint
-<img src="figure/STE.jpg" alt="STE" width="300" height="200">
-<!-- ![Link](figure/STE.jpg) -->
 
 - Haochen Li, Tianhao Gao* ,Weiping Li, et al. (2020) “Joint Event Extraction via Structural Semantic Matching,” preprint [Link](https://arxiv.org/abs/2306.03469)
+<img src="figure/LEGO-ABSA.jpg" alt="LEGO-ABSA" width="500" height="280">
 
 [Introduce Page of JSSM](pages/STE.md).
 

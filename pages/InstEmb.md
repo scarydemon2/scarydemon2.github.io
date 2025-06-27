@@ -45,7 +45,7 @@ Additionally, we propose **Dual-Anchor Alignment Pooling (DAAP)**, explicitly al
 
 The overall framework of InstEmb is illustrated below:
 
-![Link](../figure/InstAligner-main.pdf)
+![Link](../figure/InstEmb.png)
 
 ## Performance
 
@@ -53,7 +53,7 @@ InstEmb achieves state-of-the-art performance across multiple instruction-aware 
 
 The main results are shown below:
 
-![Link](../figure/InstEmb-performance.jpg)
+![Link](../figure/InstEmb-performance.png)
 
 ## Application in work
 
