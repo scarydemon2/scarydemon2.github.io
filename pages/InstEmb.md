@@ -53,7 +53,7 @@ InstEmb achieves state-of-the-art performance across multiple instruction-aware 
 
 The main results are shown below:
 
-![Link](../figure/InstEmb-performance.png)
+![Link](../figure/InstEmb_performance.png)
 
 ## Application in work
 
