@@ -28,16 +28,16 @@ layout: default
 
 ---
 
-#### 2. Soft Prompts, Strong Alignment: Aligning LLMs with Fine-Grained Instruction-Following Embeddings  
+<!-- #### 2. Soft Prompts, Strong Alignment: Aligning LLMs with Fine-Grained Instruction-Following Embeddings  
 **Tianhao Gao**, Jun Fang, et al. *(AAAI 2025, Under Review)*  
 [📄 Paper (Preprint)](https://aclanthology.org/2022.coling-1.610.pdf) | [📝 Introduction](pages/InstEmb.md)  
-<img src="figure/InstEmb.png" alt="InstEmb" width="600" style="margin-top:10px; margin-bottom:20px; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.2);">
+<img src="figure/InstEmb.png" alt="InstEmb" width="600" style="margin-top:10px; margin-bottom:20px; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.2);"> -->
 
 ---
 
 #### 3. FANoise: Feature-Adaptive Noise Driven Representation Learning  
-Jiaoyang Li, Jun Fang, **Tianhao Gao**, et al. *(NeurIPS 2025, Under Review)*  
-[📄 Paper (Preprint)](https://aclanthology.org/2022.coling-1.610.pdf) | [📝 Introduction](pages/FANoise.md)  
+Jiaoyang Li, Jun Fang, **Tianhao Gao**, et al. *(AAAI 2026)*  
+[📄 Paper](https://aclanthology.org/2022.coling-1.610.pdf) | [📝 Introduction](pages/FANoise.md)  
 <img src="figure/FANoise.png" alt="FANoise" width="600" style="margin-top:10px; margin-bottom:20px; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.2);">
 
 ---
