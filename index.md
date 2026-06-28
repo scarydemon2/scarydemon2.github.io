@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tianhao Gao
-description: Algorithm Engineer | NLP & LLM Retrieval | Representation Learning
+description: Algorithm Engineer | JD AI Product Graph | LLM/VLM & Representation Learning
 ---
 
 <section class="profile-container" id="about">
@@ -12,9 +12,9 @@ description: Algorithm Engineer | NLP & LLM Retrieval | Representation Learning
     <p class="eyebrow">Personal Homepage</p>
     <h1>Tianhao Gao</h1>
     <p class="lead">
-      I am an algorithm engineer at JD.com, working on large language models, retrieval, representation learning,
-      and product understanding systems. My research interests include instruction-following embeddings,
-      information extraction, sentiment analysis, and practical NLP systems for e-commerce.
+      I am an algorithm engineer at JD.com, where I build JD's AI Product Graph and item-understanding systems.
+      My work focuses on large-scale LLM/VLM training and inference, reinforcement learning methods,
+      representation learning, retrieval, and industrial NLP systems for e-commerce.
     </p>
     <ul class="profile-meta">
       <li><strong>Algorithm Engineer</strong>, JD.com, 2022-Present</li>
@@ -35,9 +35,10 @@ description: Algorithm Engineer | NLP & LLM Retrieval | Representation Learning
 
 ## News
 
-- **2026.07** - *InstEmb* accepted to ICML 2026 as a poster.
-- **2026.02** - *FANoise* accepted to AAAI 2026.
-- **2022.10** - *LEGO-ABSA* accepted to COLING 2022.
+- **2026.06** - Completed [**JD Oxygen AI Item Center (Oxygen AIIC) V1**](#projects), an industrial-scale LLM/VLM-centric solution for item understanding, management, and applications.
+- **2026.07** - [*InstEmb*](https://icml.cc/virtual/2026/poster/62511) accepted to ICML 2026 as a poster.
+- **2026.02** - [*FANoise*](https://ojs.aaai.org/index.php/AAAI/article/view/37545) accepted to AAAI 2026.
+- **2022.10** - [*LEGO-ABSA*](https://aclanthology.org/2022.coling-1.610/) accepted to COLING 2022.
 
 </section>
 
@@ -100,14 +101,13 @@ description: Algorithm Engineer | NLP & LLM Retrieval | Representation Learning
 
 <div class="project-grid">
   <article class="project-card">
-    <h3>Multimodal Product Content Tagging</h3>
-    <p>Built a multimodal tagging pipeline for e-commerce product understanding.</p>
+    <h3>JD Oxygen AI Item Center (Oxygen AIIC) / Large Product Understanding Model</h3>
+    <p>Built and iterated a large-scale LLM/VLM-centric item-understanding platform centered on JD's AI Product Graph.</p>
     <ul>
-      <li>Compared base models and architectures for production constraints.</li>
-      <li>Constructed high-quality training data with PySpark and Hive SQL.</li>
-      <li>Reached about <strong>90% accuracy</strong> with a recursive thresholding strategy.</li>
+      <li>Delivered Oxygen AIIC V1 for item understanding, management, and downstream applications.</li>
+      <li>Reached <strong>90%+</strong> accuracy in product-understanding tasks through continuous model and data iteration.</li>
+      <li>Accumulated large-scale data assets across taxonomy, attributes, knowledge graphs, and titles, adding over <strong>1TB</strong> of structured assets.</li>
     </ul>
-    <img src="figure/multimodal-loss.jpg" alt="Multimodal product tagging" class="project-image">
   </article>
 
   <article class="project-card">
@@ -141,22 +141,23 @@ description: Algorithm Engineer | NLP & LLM Retrieval | Representation Learning
   </article>
 
   <article class="project-card">
-    <h3>Large Product Understanding Model</h3>
-    <p>Built data and modeling capabilities for large-scale product understanding.</p>
-    <ul>
-      <li>Reached <strong>90%+</strong> accuracy in product-understanding tasks.</li>
-      <li>Accumulated large-scale data assets across taxonomy, attributes, knowledge graphs, and titles.</li>
-      <li>Added over <strong>1TB</strong> of structured data assets for downstream modeling.</li>
-    </ul>
-  </article>
-
-  <article class="project-card">
     <h3>Counterfeit Brand Title Detection</h3>
     <p>Designed a modular detection system for counterfeit-brand title risks.</p>
     <ul>
       <li>Decoupled detection challenges into explainable modules.</li>
       <li>Combined edit distance, minimum-window matching, recursive algorithms, and CV2-based signals.</li>
     </ul>
+  </article>
+
+  <article class="project-card">
+    <h3>Multimodal Product Content Tagging</h3>
+    <p>Built a multimodal tagging pipeline for e-commerce product understanding.</p>
+    <ul>
+      <li>Compared base models and architectures for production constraints.</li>
+      <li>Constructed high-quality training data with PySpark and Hive SQL.</li>
+      <li>Reached about <strong>90% accuracy</strong> with a recursive thresholding strategy.</li>
+    </ul>
+    <img src="figure/multimodal-loss.jpg" alt="Multimodal product tagging" class="project-image">
   </article>
 </div>
 
