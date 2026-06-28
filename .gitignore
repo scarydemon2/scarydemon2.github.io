@@ -1,0 +1,7 @@
+# Local Jekyll / Ruby artifacts
+_site/
+.sass-cache/
+.jekyll-cache/
+.bundle/
+vendor/
+Gemfile.lock

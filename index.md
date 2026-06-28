@@ -1,141 +1,172 @@
 ---
 layout: default
+title: Tianhao Gao
+description: Algorithm Engineer | NLP & LLM Retrieval | Representation Learning
 ---
 
-<div class="profile-container">
+<section class="profile-container" id="about">
   <div class="profile-left">
-    <img src="figure/handsome_face.png" alt="Your Photo" class="profile-photo">
+    <img src="figure/handsome_face.png" alt="Tianhao Gao" class="profile-photo">
   </div>
   <div class="profile-right">
-    <h2>Tianhao Gao</h2>
-    <ul class="experience">
-      <li><strong>Algorithm Engineer</strong>, JD.com, 2022-now</li>
+    <p class="eyebrow">Personal Homepage</p>
+    <h1>Tianhao Gao</h1>
+    <p class="lead">
+      I am an algorithm engineer at JD.com, working on large language models, retrieval, representation learning,
+      and product understanding systems. My research interests include instruction-following embeddings,
+      information extraction, sentiment analysis, and practical NLP systems for e-commerce.
+    </p>
+    <ul class="profile-meta">
+      <li><strong>Algorithm Engineer</strong>, JD.com, 2022-Present</li>
       <li><strong>M.S. in Computer Technology</strong>, Peking University, 2019-2022</li>
       <li><strong>B.S. in Software Engineering</strong>, Wuhan University of Technology, 2015-2019</li>
     </ul>
-    <p>Email: gaotianhao@pku.edu.cn</p>
+    <p class="contact-line">
+      <a href="mailto:gaotianhao@pku.edu.cn">gaotianhao@pku.edu.cn</a>
+      <span>|</span>
+      <a href="https://github.com/scarydemon2">GitHub</a>
+      <span>|</span>
+      <a href="https://scholar.google.com/citations?user=GpVmQ7EAAAAJ&hl=en">Google Scholar</a>
+    </p>
   </div>
-</div>
+</section>
+
+<section id="news" markdown="1">
+
+## News
+
+- **2026.07** - *InstEmb* accepted to ICML 2026 as a poster.
+- **2026.02** - *FANoise* accepted to AAAI 2026.
+- **2022.10** - *LEGO-ABSA* accepted to COLING 2022.
+
+</section>
+
+<section id="publications" markdown="1">
 
 ## Publications
 
-### 📚 Conference Papers
+### Conference Papers
 
-#### 1. LEGO-ABSA: A Prompt-based Task Assemblable Unified Generative Framework for Multi-task Aspect-based Sentiment Analysis  
-**Tianhao Gao**, Jun Fang, Hanyu Liu, et al. *(COLING 2022)*  
-[📄 Paper](https://aclanthology.org/2022.coling-1.610.pdf) | [📽️ Slides](https://docs.google.com/presentation/d/1P9n2fXcbiXS980pE7TAIdcb5upj82d1t/edit?usp=sharing&ouid=111174972996846420319&rtpof=true&sd=true) | [📝 Introduction](pages/LEGO-ABSA.md)  
-<img src="figure/LEGO-ABSA.jpg" alt="LEGO-ABSA" width="600" style="margin-top:10px; margin-bottom:20px; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.2);">
+<div class="publication-card">
+  <div class="pub-venue">ICML 2026</div>
+  <h3>InstEmb: Instruction-Following Embeddings through Glimpses of the Future</h3>
+  <p><strong>Tianhao Gao</strong>, Jun Fang, Xiaohui Zhang, Zhiyuan Liu, Chao Liu, Pengzhang Liu, Qixia Jiang</p>
+  <p class="pub-summary">Instruction-following embeddings with output-aware semantic signals and dual-anchor pooling.</p>
+  <p class="pub-links">
+    <a href="https://icml.cc/virtual/2026/poster/62511">ICML Page</a>
+    <a href="pages/InstEmb.html">Project Page</a>
+  </p>
+  <img src="figure/InstEmb.png" alt="InstEmb framework" class="paper-image">
+</div>
 
----
+<div class="publication-card">
+  <div class="pub-venue">AAAI 2026</div>
+  <h3>FANoise: Feature-Adaptive Noise Driven Representation Learning</h3>
+  <p>Jiaoyang Li, Jun Fang, <strong>Tianhao Gao</strong>, et al.</p>
+  <p class="pub-summary">Feature-adaptive noise for robust representation learning.</p>
+  <p class="pub-links">
+    <a href="https://ojs.aaai.org/index.php/AAAI/article/view/37545">Paper</a>
+  </p>
+  <img src="figure/FANoise.png" alt="FANoise overview" class="paper-image">
+</div>
 
-<!-- #### 2. Soft Prompts, Strong Alignment: Aligning LLMs with Fine-Grained Instruction-Following Embeddings  
-**Tianhao Gao**, Jun Fang, et al. *(AAAI 2025, Under Review)*  
-[📄 Paper (Preprint)](https://aclanthology.org/2022.coling-1.610.pdf) | [📝 Introduction](pages/InstEmb.md)  
-<img src="figure/InstEmb.png" alt="InstEmb" width="600" style="margin-top:10px; margin-bottom:20px; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.2);"> -->
+<div class="publication-card">
+  <div class="pub-venue">COLING 2022</div>
+  <h3>LEGO-ABSA: A Prompt-based Task Assemblable Unified Generative Framework for Multi-task Aspect-based Sentiment Analysis</h3>
+  <p><strong>Tianhao Gao</strong>, Jun Fang, Hanyu Liu, et al.</p>
+  <p class="pub-summary">A unified prompt-based generative framework for multiple aspect-based sentiment analysis tasks.</p>
+  <p class="pub-links">
+    <a href="https://aclanthology.org/2022.coling-1.610.pdf">Paper</a>
+    <a href="https://docs.google.com/presentation/d/1P9n2fXcbiXS980pE7TAIdcb5upj82d1t/edit?usp=sharing&ouid=111174972996846420319&rtpof=true&sd=true">Slides</a>
+  </p>
+  <img src="figure/LEGO-ABSA.jpg" alt="LEGO-ABSA overview" class="paper-image">
+</div>
 
----
+### Preprints
 
-#### 3. FANoise: Feature-Adaptive Noise Driven Representation Learning  
-Jiaoyang Li, Jun Fang, **Tianhao Gao**, et al. *(AAAI 2026)*  
-[📄 Paper](https://aclanthology.org/2022.coling-1.610.pdf) | [📝 Introduction](pages/FANoise.md)  
-<img src="figure/FANoise.png" alt="FANoise" width="600" style="margin-top:10px; margin-bottom:20px; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.2);">
+<div class="publication-card compact">
+  <h3>Joint Event Extraction via Structural Semantic Matching</h3>
+  <p>Haochen Li, <strong>Tianhao Gao*</strong>, Weiping Li, et al. <span class="muted">(* equal contribution)</span></p>
+  <p class="pub-links">
+    <a href="https://arxiv.org/abs/2306.03469">arXiv</a>
+  </p>
+</div>
 
----
+</section>
 
-### 📑 Preprints
+<section id="projects" markdown="1">
 
-#### Joint Event Extraction via Structural Semantic Matching  
-Haochen Li, **Tianhao Gao***, Weiping Li, et al. *(Preprint, 2020)*  
-[📄 arXiv](https://arxiv.org/abs/2306.03469) | [📝 Introduction](pages/STE.md)  
-<img src="figure/STE.jpg" alt="STE" width="600" style="margin-top:10px; margin-bottom:20px; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.2);">
+## Selected Projects
 
+<div class="project-grid">
+  <article class="project-card">
+    <h3>Multimodal Product Content Tagging</h3>
+    <p>Built a multimodal tagging pipeline for e-commerce product understanding.</p>
+    <ul>
+      <li>Compared base models and architectures for production constraints.</li>
+      <li>Constructed high-quality training data with PySpark and Hive SQL.</li>
+      <li>Reached about <strong>90% accuracy</strong> with a recursive thresholding strategy.</li>
+    </ul>
+    <img src="figure/multimodal-loss.jpg" alt="Multimodal product tagging" class="project-image">
+  </article>
+
+  <article class="project-card">
+    <h3>JD Front-end Category Recognition</h3>
+    <p>Upgraded category-recognition models and data assets for large-scale product taxonomy systems.</p>
+    <ul>
+      <li>Fine-tuned Qwen2.5-7B for apparel category recognition with about <strong>90.5% validation accuracy</strong>.</li>
+      <li>Reduced dependence on manual labeling through automatic hard-example mining.</li>
+      <li>Mined product terms from large-scale search query logs for downstream taxonomy enrichment.</li>
+    </ul>
+  </article>
+
+  <article class="project-card">
+    <h3>Product Detail Page QA / RAG</h3>
+    <p>Developed retrieval-augmented QA models for product-detail scenarios.</p>
+    <ul>
+      <li>Constructed SFT and evaluation data with GPT-assisted pipelines.</li>
+      <li>Built a LangChain-based QA flow and deployed it for multiple first-level categories.</li>
+      <li>Improved vector retrieval top-1 accuracy from <strong>76.24%</strong> to <strong>77.29%</strong>.</li>
+    </ul>
+  </article>
+
+  <article class="project-card">
+    <h3>Apple Store Customer-Service RAG</h3>
+    <p>Built and evaluated RAG components for Apple self-operated store customer-service scenarios.</p>
+    <ul>
+      <li>Reached <strong>85%+</strong> offline accuracy and <strong>89.5%</strong> including partially correct UAT answers.</li>
+      <li>Validated Qwen-series baselines and prepared incremental model upgrades.</li>
+      <li>Designed an LLM-based information-extraction pipeline from customer-service conversations.</li>
+    </ul>
+  </article>
+
+  <article class="project-card">
+    <h3>Large Product Understanding Model</h3>
+    <p>Built data and modeling capabilities for large-scale product understanding.</p>
+    <ul>
+      <li>Reached <strong>90%+</strong> accuracy in product-understanding tasks.</li>
+      <li>Accumulated large-scale data assets across taxonomy, attributes, knowledge graphs, and titles.</li>
+      <li>Added over <strong>1TB</strong> of structured data assets for downstream modeling.</li>
+    </ul>
+  </article>
+
+  <article class="project-card">
+    <h3>Counterfeit Brand Title Detection</h3>
+    <p>Designed a modular detection system for counterfeit-brand title risks.</p>
+    <ul>
+      <li>Decoupled detection challenges into explainable modules.</li>
+      <li>Combined edit distance, minimum-window matching, recursive algorithms, and CV2-based signals.</li>
+    </ul>
+  </article>
+</div>
+
+</section>
+
+<section id="patents" markdown="1">
 
 ## Patents
 
-<!-- - Tianhao Gao, et al. "Aspect-based sentiment analysis method based on text style transfer” Submitted
+- Tianhao Gao, et al. **An Iterative Training Framework and Hierarchical Contrastive Loss for Graph-Text Matching**. Submitted.
+- Tianhao Gao, et al. **Model training method and device, semantic recognition method and device, and electronic device**. CN115759292A. [PatentGuru](https://www.patentguru.com/cn/search?q=CN115759292A)
 
-[Introduce Page](pages/patent1.md). -->
-
-
-- Tianhao Gao, et al. "An Iterative Training Framework and Hierarchical Contrastive Loss for Graph-Text Matching" Submitted
-
-<!-- [Introduce Page](pages/patent2.md). -->
-
-- https://www.patentguru.com/cn/search?q=CN115759292A 《模型的训练方法及装置、语义识别方法及装置、电子设备》
-
-## 🚀 Projects
-
----
-
-### 📌 Project 1: 多模态商品内容标签打标系统  
-
-<img src="figure/multimodal-loss.jpg" alt="multimodal-loss" width="700" style="margin-top:10px; margin-bottom:20px; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.2);">
-
-- 🔹 Selected the optimal base model and architecture through a thorough comparison and evaluation of different alternatives.
-- 🔹 Constructed high-quality training data using PySpark and Hive SQL techniques.
-- 🔹 Trained a multi-modal tagging model and developed a recursive algorithm to determine the appropriate threshold, achieving an impressive **90% accuracy**.
-
----
-
-### 📌 Project 2: 京东前台类目识别模型  
-
-*(图片待添加)*
-
-- 🔹 内衣类目完成 Qwen2.5-7b 模型 SFT，业务验收准确率达到 **90.5%**。完成内衣类目全量数据刷数，沉淀 **1.2亿** 数据资产。AB 实验初步结果体验得分绝对提升 **0.25分**，符合业务预期。
-- 🔹 前台类目识别完成模型迭代方案升级，升级后的方案不依赖人工数据标注，可自动化进行难例挖掘。
-- 🔹 服饰一级类目产品词挖掘，基于 **180天全量搜索 query**，产出约 **1万产品词**。
-
----
-
-### 📌 Project 3.1: 京东商详页问答 RAG 模型  
-
-*(图片待添加)*
-
-- 🔹 基于 GPT-4 完成商详问答 SFT 数据集构建，并建立测试数据集。
-- 🔹 构建问答增强的 Bloom 模型，并基于 LangChain 构建问答全流程，算法自测准确率 **88%**，完成三个一级类目服务部署上线。
-- 🔹 调研 RAG 领域主流做法。利用商详问答 LLM 模型生产监督数据，反向优化向量检索模型，将向量检索模型的 top-1 准确率由 **76.24% 提升至 77.29%**，提升 **1.1个百分点**，将 bge-small 模型的能力提升至 stella-large 水平。
-
----
-
-### 📌 Project 3.2: Apple 自营店客服 RAG  
-
-*(图片待添加)*
-
-- 🔹 RAG 模块采用 GLM3 模型，自测准确率 **85%+**。全流程 UAT 测试中，严格正确率为 **81.1%**，加上部分正确率则为 **89.5%**。服务已上线，业务 AB 测试中。
-- 🔹 RAG 模块 baseline 模型升级，完成 Qwen1.5 和 Qwen2 系列模型在 Apple 的训练和效果验证，迭代上线推进中。
-- 🔹 基于 LLM + 客服对话，构建信息抽取 pipeline，完成客服有效对话抽取能力建设，并在 Apple Watch 品类完成测试。基于该能力可生产的数据包括：
-    - 客服有效对话数据
-    - 问答数据对（用于编码模型训练）
-    - 商品信息结构化图谱
-- 🔹 构建 Mac 品类训练数据，完成 Apple 问答模型增量训练，通过回归测试，Mac 品类上线，准确率达到 **85%+** 目标。
-
----
-
-### 📌 Project 4: 商品理解大模型  
-
-*(图片待添加)*
-
-- 🔹 商品理解大模型准确率达到 **90%+**。
-- 🔹 沉淀数据资产新增总量 **11.5亿**，包括：
-    - 前台类目：**5.7亿**
-    - 商品数据资产：**1.2亿**
-    - 规格属性抽取：**3.8亿**
-    - 品类知识图谱：**0.4亿**
-    - 商品短标题：**0.4亿**
-- 🔹 新增数据资产存储量超过 **1TB**。
-
----
-
-### 📌 Project 5: 标签联想能力建设  
-
-*(图片待添加，内容待完善)*
-
----
-
-### 📌 Project 6: Counterfeit Brand Titles Detection System  
-
-*(图片待添加)*
-
-- 🔹 Performed a comprehensive problem analysis and proposed a modular system architecture to decouple and solve various challenges.
-- 🔹 Employed traditional algorithms, including edit distance, minimum window substring, and recursive algorithms combined with the CV2 library for effective counterfeit detection.
-
+</section>
